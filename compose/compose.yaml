@@ -72,7 +72,7 @@ services:
       network_mode: "host"
 
   app:
-    image: localhost:5000/app
+    image: gerke74/littleapp
     restart: always
     ports:
         - 9999:80

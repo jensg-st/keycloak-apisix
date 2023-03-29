@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker build -t localhost:5000/app .
+docker build -t gerke74/littleapp .
 
-docker push localhost:5000/app
+docker push gerke74/littleapp
